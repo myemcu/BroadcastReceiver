@@ -14,7 +14,7 @@ public class CReceiver extends BroadcastReceiver {
         // TODO: This method is called when the BroadcastReceiver is receiving
         // an Intent broadcast.
         //throw new UnsupportedOperationException("Not yet implemented");
-        Toast.makeText(context,"C被广播",Toast.LENGTH_SHORT).show();
-        //abortBroadcast();
+        Toast.makeText(context,"C广播后，令广播终止",Toast.LENGTH_SHORT).show();
+        abortBroadcast();
     }
 }
