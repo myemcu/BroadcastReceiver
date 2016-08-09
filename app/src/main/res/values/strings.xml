@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">APP_13(BroadcastReceiver)</string>
+    <string name="show">1.所有广播均按宣告档中的优先级进行，值大优先；\n\n
+                        2.只有有序广播才能发出数据；\n\n
+                        3.只有有序广播才能终止广播。</string>
+</resources>
